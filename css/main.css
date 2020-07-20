@@ -1,0 +1,40 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: -webkit-linear-gradient(left, #C1F1FF, #A1EAFF);
+    background: linear-gradient(to right, #C1F1FF, #A1EAFF);
+    padding-top: 10%;
+}
+form{
+    background-color: #51D8FF;
+    /*margin: 0 auto;*/
+    margin-top: 10%;
+    margin: 0 auto;
+    width: 450px;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+
+input{
+    border: solid 0;
+    border-radius: 3px;
+}
+
+input[type=text], input[type=password]{
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+    width: 370px;
+}
+input[type=submit]{
+    background-color: #1E69E3;
+    color: white;
+    padding: 8px;
+    border: none;
+    width: 200px;
+}
+.center{
+    text-align: center;
+}
+
+
